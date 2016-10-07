@@ -20,8 +20,8 @@
 
 - Install [Karabiner Elements](https://github.com/wwwjfy/Karabiner-Elements)
 - No binaries for now, only source (it is just few lines of code)
-- Clone project, open in Xcode, compile, run, set for auto-launch in Settings 
-- karabiner.json for swapping command/option keys is named "external.json" and inside application bundle 
+- Clone project, open in Xcode, compile, copy binary somewhere, set for auto-launch in System Preferences → Users & Groups → Login Items 
+- karabiner.json for swapping command/option keys is named "external.json" and inside application bundle; you might want to edit it if you want something besides ⌘ / ⌥ swap. 
 
 
 
