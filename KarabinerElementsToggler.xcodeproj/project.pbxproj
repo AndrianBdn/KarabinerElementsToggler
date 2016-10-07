@@ -10,14 +10,17 @@
 		E646225C1DA267DD00FF6EC8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E646225B1DA267DD00FF6EC8 /* AppDelegate.swift */; };
 		E646225E1DA267DD00FF6EC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E646225D1DA267DD00FF6EC8 /* Assets.xcassets */; };
 		E64622611DA267DD00FF6EC8 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = E646225F1DA267DD00FF6EC8 /* MainMenu.xib */; };
+		E66F22501DA7C4AD0078BAD6 /* external.json in Resources */ = {isa = PBXBuildFile; fileRef = E66F224F1DA7C4AD0078BAD6 /* external.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E64622581DA267DD00FF6EC8 /* DockDetect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DockDetect.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E64622581DA267DD00FF6EC8 /* KarabinerElementsToggler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KarabinerElementsToggler.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E646225B1DA267DD00FF6EC8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E646225D1DA267DD00FF6EC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E64622601DA267DD00FF6EC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		E64622621DA267DD00FF6EC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E64622681DA26BA100FF6EC8 /* DockDetect-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DockDetect-Bridging-Header.h"; sourceTree = "<group>"; };
+		E66F224F1DA7C4AD0078BAD6 /* external.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = external.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,7 +45,7 @@
 		E64622591DA267DD00FF6EC8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E64622581DA267DD00FF6EC8 /* DockDetect.app */,
+				E64622581DA267DD00FF6EC8 /* KarabinerElementsToggler.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -50,10 +53,12 @@
 		E646225A1DA267DD00FF6EC8 /* DockDetect */ = {
 			isa = PBXGroup;
 			children = (
+				E66F224F1DA7C4AD0078BAD6 /* external.json */,
 				E646225B1DA267DD00FF6EC8 /* AppDelegate.swift */,
 				E646225D1DA267DD00FF6EC8 /* Assets.xcassets */,
 				E646225F1DA267DD00FF6EC8 /* MainMenu.xib */,
 				E64622621DA267DD00FF6EC8 /* Info.plist */,
+				E64622681DA26BA100FF6EC8 /* DockDetect-Bridging-Header.h */,
 			);
 			path = DockDetect;
 			sourceTree = "<group>";
@@ -61,9 +66,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E64622571DA267DD00FF6EC8 /* DockDetect */ = {
+		E64622571DA267DD00FF6EC8 /* KarabinerElementsToggler */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E64622651DA267DD00FF6EC8 /* Build configuration list for PBXNativeTarget "DockDetect" */;
+			buildConfigurationList = E64622651DA267DD00FF6EC8 /* Build configuration list for PBXNativeTarget "KarabinerElementsToggler" */;
 			buildPhases = (
 				E64622541DA267DD00FF6EC8 /* Sources */,
 				E64622551DA267DD00FF6EC8 /* Frameworks */,
@@ -73,9 +78,9 @@
 			);
 			dependencies = (
 			);
-			name = DockDetect;
+			name = KarabinerElementsToggler;
 			productName = DockDetect;
-			productReference = E64622581DA267DD00FF6EC8 /* DockDetect.app */;
+			productReference = E64622581DA267DD00FF6EC8 /* KarabinerElementsToggler.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -95,7 +100,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E64622531DA267DD00FF6EC8 /* Build configuration list for PBXProject "DockDetect" */;
+			buildConfigurationList = E64622531DA267DD00FF6EC8 /* Build configuration list for PBXProject "KarabinerElementsToggler" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -108,7 +113,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E64622571DA267DD00FF6EC8 /* DockDetect */,
+				E64622571DA267DD00FF6EC8 /* KarabinerElementsToggler */,
 			);
 		};
 /* End PBXProject section */
@@ -118,6 +123,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E66F22501DA7C4AD0078BAD6 /* external.json in Resources */,
 				E646225E1DA267DD00FF6EC8 /* Assets.xcassets in Resources */,
 				E64622611DA267DD00FF6EC8 /* MainMenu.xib in Resources */,
 			);
@@ -246,8 +252,9 @@
 				DEVELOPMENT_TEAM = FA8DPD7WRW;
 				INFOPLIST_FILE = DockDetect/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = io.andrian.DockDetect;
+				PRODUCT_BUNDLE_IDENTIFIER = io.andrian.KarabinerElementsToggler;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DockDetect/DockDetect-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -260,8 +267,9 @@
 				DEVELOPMENT_TEAM = FA8DPD7WRW;
 				INFOPLIST_FILE = DockDetect/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = io.andrian.DockDetect;
+				PRODUCT_BUNDLE_IDENTIFIER = io.andrian.KarabinerElementsToggler;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DockDetect/DockDetect-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -269,7 +277,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E64622531DA267DD00FF6EC8 /* Build configuration list for PBXProject "DockDetect" */ = {
+		E64622531DA267DD00FF6EC8 /* Build configuration list for PBXProject "KarabinerElementsToggler" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E64622631DA267DD00FF6EC8 /* Debug */,
@@ -278,13 +286,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E64622651DA267DD00FF6EC8 /* Build configuration list for PBXNativeTarget "DockDetect" */ = {
+		E64622651DA267DD00FF6EC8 /* Build configuration list for PBXNativeTarget "KarabinerElementsToggler" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E64622661DA267DD00FF6EC8 /* Debug */,
 				E64622671DA267DD00FF6EC8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
