@@ -3,7 +3,7 @@
 ### My User Story 
 
 - I have PC keyboard that has Option and Command keys swapped 
-- [Karabiner Elements](https://github.com/wwwjfy/Karabiner-Elements) app allows to swap keys back, but currently it lacks option to do this for external PC keyboard only
+- [Karabiner Elements](https://github.com/tekezo/Karabiner-Elements) app allows to swap keys back, but currently it lacks option to do this for external PC keyboard only
 - My PC keyboard is always hooked to  Thunderbolt Display 
 
 
